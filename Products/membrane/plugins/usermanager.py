@@ -22,7 +22,7 @@ from Products.PluggableAuthService.utils import createViewName
 from Products.ZCTextIndex.ZCTextIndex import ZCTextIndex
 from zope.annotation.interfaces import IAnnotations
 from zope.interface import implementer
-from zope.site import hooks
+from zope.component import hooks
 
 import copy
 
