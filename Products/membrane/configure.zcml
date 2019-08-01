@@ -10,8 +10,9 @@
   <include package=".interfaces" />
   <include package=".browser" />
   <include package=".exportimport" />
-  <include package=".examples" />
-  <include package=".at" />
+  <!--
+  <include package=".examples" /> 
+  <include package=".at" />  -->
 
   <adapter factory=".catalog.object_implements"
            name="object_implements"
